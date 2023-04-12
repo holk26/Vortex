@@ -37,6 +37,7 @@ DATABASES = {
 
 y ejecutar las migraciones 
 
+crear una BD en postgreSQL: trasporte
 
  python manage.py makemigrations
 
