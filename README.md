@@ -22,6 +22,26 @@ http://127.0.0.1:8000/admin/login/?next=/admin/
 
 
 
+# configurar la base de datos 
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'trasporte',
+        'USER': 'postgres',
+        'PASSWORD': 'holk',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
+
+y ejecutar las migraciones 
+
+
+ python manage.py makemigrations
+
+ python manage.py migrate       
+
 Http
 
 # GET
@@ -43,6 +63,7 @@ http://127.0.0.1:8000/api/conductor/
   "telefono": "12312",
   "direccion": "cra 123"
 }
+
 
 
 http://127.0.0.1:8000/api/pedido/
@@ -93,3 +114,6 @@ http://127.0.0.1:8000/api/vehiculos/1
 http://127.0.0.1:8000/api/conductor/1
 http://127.0.0.1:8000/api/pedido/1
 http://127.0.0.1:8000/api/vehiculos/1
+
+
+
