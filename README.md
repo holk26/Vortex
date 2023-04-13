@@ -2,17 +2,14 @@
 
 # Dependencias 
 
-asgiref    3.6.0  
+
 Django     4.2    
-pip        23.0.1 
 psycopg2   2.9.6  
-setuptools 65.5.0 
-sqlparse   0.4.3  
-tzdata     2023.3 
 
 
-ejecutar venv 
-Vortex/venv/Scripts/python.exe
+Activar el entorno virtual Ejecuta el siguiente comando  en la consola en la carpeta raiz de del proyecto 
+
+<code>.\venv\Scripts\activate</code>
 
 para visualisar los cambios en el administrador de django 
 
