@@ -11,6 +11,10 @@ Activar el entorno virtual Ejecuta el siguiente comando  en la consola en la car
 
 <code>.\venv\Scripts\activate</code>
 
+Si genera error ejecuta esto en con permisos de administrador
+
+<code>Set-ExecutionPolicy Unrestricted</code>
+
 para visualisar los cambios en el administrador de django 
 
 python manage.py createsuperuser
