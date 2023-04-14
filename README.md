@@ -2,6 +2,7 @@
 
 # Dependencias 
 
+pip freeze > requirements.txt
 
 Django     4.2    
 psycopg2   2.9.6  
@@ -44,6 +45,9 @@ crear una BD en postgreSQL: trasporte
  python manage.py makemigrations
 
  python manage.py migrate       
+
+
+<code>  python manage.py runserver </code>  
 
 Http
 
